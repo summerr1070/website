@@ -1,0 +1,91 @@
+/*basic formating*/
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+	background-color: #FFCBB1;
+}
+
+.titles {
+	text-align: center;
+	align-items: center;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 35px;
+	text-decoration: underline;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+p {
+	font-size: 21px;
+}
+
+/*code for the nav bar*/
+.navbutton {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: 8px;
+	flex-grow: 1;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.navbutton:hover {
+	text-decoration: underline;
+	background-color: #8C503A;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	background-color: #EF9879;
+}
+
+.info {
+	margin: 20px;
+	text-align: center;
+	color: #884E38;
+}
+
+.top2 {
+	display: flex;
+	justify-content: space-around;
+}
+
+.important {
+	width: 50%;
+	margin: 10px;
+	border: dashed 5px #66A2A7;
+	padding: 8px;
+}
+
+.help {
+	width: 50%;
+	margin: 10px;
+	border: dashed 5px #66A2A7;
+	padding: 8px;
+}
+
+.bottom {
+	border: dashed 5px #66A2A7;
+	margin: 10px;
+	padding: 8px;
+}
+
+br {
+	line-height: 75px;
+}
