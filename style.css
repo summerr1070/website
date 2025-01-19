@@ -78,7 +78,6 @@ h1 {
 
 .flex{
 	display: flex;
-	justify-content: space-evenly;
 }
 
 /*#FFE9DC*/
@@ -103,5 +102,5 @@ h1 {
 iframe {
 	border: dashed 5px #66A2A7;
 	margin: 10px;
-	width: 50%;
+	width: max-content;
 }
