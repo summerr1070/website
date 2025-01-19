@@ -84,14 +84,14 @@ h1 {
 .about {
 	border: dashed 5px #66A2A7;
 	padding: 10px;
-	width: 50%;
+	width: fit-content;
 	margin: 10px;
 }
 
 .why {
 	border: dashed 5px #66A2A7;
 	padding: 10px;
-	width: 50%;
+	width: fit-content;
 	margin: 10px;
 }
 
