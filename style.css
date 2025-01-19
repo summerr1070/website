@@ -1,7 +1,7 @@
 /*basic formating*/
 html {
-	width: 100%;
-	height: max-content;
+	width: fit-content;
+	height: fit-content;
 }
 
 body,html {
@@ -17,7 +17,7 @@ body,html {
 h2 {
 	font-size: 35px;
 	text-decoration: underline;
-	width: fit-content;
+	width: max-content;
 	justify-self: center;
 	padding: 5px;
 }
@@ -63,7 +63,6 @@ h1 {
 .navbar {
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
 	background-color: #EF9879;
 }
 
@@ -79,23 +78,22 @@ h1 {
 
 .flex{
 	display: flex;
+	justify-content: space-evenly;
 }
 
 /*#FFE9DC*/
 .about {
 	border: dashed 5px #66A2A7;
 	padding: 10px;
-	width: 20px;
+	width: 50%;
 	margin: 10px;
-	flex-grow: 1;
 }
 
 .why {
 	border: dashed 5px #66A2A7;
 	padding: 10px;
-	width: 20px;
+	width: 50%;
 	margin: 10px;
-	flex-grow: 1;
 }
 
 .forms {
@@ -105,5 +103,5 @@ h1 {
 iframe {
 	border: dashed 5px #66A2A7;
 	margin: 10px;
-	flex-grow: 1;
+	width: 50%;
 }
