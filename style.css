@@ -63,6 +63,7 @@ h1 {
 .navbar {
 	display: flex;
 	align-items: center;
+	justify-content: space-evenly;
 	background-color: #EF9879;
 }
 
