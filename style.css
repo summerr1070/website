@@ -1,7 +1,8 @@
 /*basic formating*/
 html {
-	width: max-content;
-	height: max-content;
+	width: 100%;
+	height:100%;
+	max-width: 100%;
 }
 
 body,html {
@@ -63,7 +64,6 @@ h1 {
 .navbar {
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
 	background-color: #EF9879;
 }
 
