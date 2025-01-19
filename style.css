@@ -17,7 +17,6 @@ body,html {
 h2 {
 	font-size: 35px;
 	text-decoration: underline;
-	width: fit-content;
 	justify-self: center;
 	padding: 5px;
 }
