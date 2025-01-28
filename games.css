@@ -81,7 +81,27 @@ a {
 
 .games {
 	display: grid;
-	grid-template-columns: [first] minmax(300px, 1fr) [second] minmax(300px, 1fr) [last];
+	grid-template-columns: [first] minmax(250px, 1fr) [second] minmax(250px, 1fr) [last];
+	
+@media screen and (max-width: 768px) {
+  .games {
+    grid-template-columns: 1fr;
+  }
+  
+  .game1, .game2, .game3, .game4 {
+    width: auto;
+    margin: 10px 5px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .games {
