@@ -1,34 +1,7 @@
 /*basic formating*/
 html {
-	width: 100%;
+	width: device-width;
 	height: 100%;
-}
-
-/* Responsive design */
-@media screen and (max-width: 768px) {
-  .flex {
-		flex-shrink:1;
-		height: min-content;
-  }
-  
-  .forms {
-    flex-direction: column;
-  }
-  
-  p {
-    font-size: 18px;
-  }
-  
-  h1 {
-    font-size: 36px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  
-  .navbutton {
-    font-size: 16px;
-    padding: 15px 0;
-  }
 }
 
 body,html {
@@ -105,31 +78,6 @@ h1 {
 .flex{
 	display: flex;
 	flex-direction: row;
-}
-
-@media screen and (max-width: 768px) {
-  .flex {
-    flex-direction: column;
-  }
-  
-  .about, .why {
-    width: auto;
-    margin: 10px 5px;
-  }
-  
-  iframe {
-    width: 100%;
-    margin: 10px 0;
-  }
-  
-  p {
-    font-size: 16px;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
 }
 
 /*#FFE9DC*/
