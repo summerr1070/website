@@ -1,7 +1,7 @@
 /*basic formating*/
 html {
 	width: device-width;
-	height: fit-content;
+	height: 100%;
 }
 
 body,html {
@@ -77,6 +77,7 @@ h1 {
 
 .flex{
 	display: flex;
+	flex-direction: row;
 }
 
 /*#FFE9DC*/
@@ -84,6 +85,7 @@ h1 {
 	border: dashed 5px #66A2A7;
 	padding: 10px;
 	width: 20px;
+	height: min-content;
 	flex-grow: 1;
 	margin: 10px;
 }
