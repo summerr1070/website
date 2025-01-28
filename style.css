@@ -1,7 +1,33 @@
 /*basic formating*/
 html {
-	width: device-width;
+	width: 100%;
 	height: 100%;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+  }
+  
+  .forms {
+    flex-direction: column;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .navbutton {
+    font-size: 16px;
+    padding: 15px 0;
+  }
 }
 
 body,html {

@@ -81,7 +81,24 @@ a {
 
 .games {
 	display: grid;
-	grid-template-columns: [first] 50% [second] 50% [last];
+	grid-template-columns: [first] minmax(300px, 1fr) [second] minmax(300px, 1fr) [last];
+
+@media screen and (max-width: 768px) {
+  .games {
+    grid-template-columns: 1fr;
+  }
+  
+  .img1, .img2, .img3, .img4,
+  .game1, .game2, .game3, .game4 {
+    grid-column: 1;
+    width: 100%;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
 	grid-template-rows: [first] 500px [second] 500px [third] 500px [fourth] 500px [fifth];
 	row-gap: 25px;
 	column-gap: 10px;
